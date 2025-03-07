@@ -32,37 +32,61 @@ ul {
   padding-right: 10px;
 }
 
+.box {
+  width: 250px;
+  height: 30px;
+  background-color: orange;
+  border-style: dashed;
+}
 /* HEADER */
 
-.alt {
+.header-ext {
+  height: 250px;
+  background-color: rgba(0, 153, 255, 0.164);
   display: flex;
   flex-direction: column;
 }
 
-.box-ext {
-  max-width: 1100px;
-  height: 250px;
-  background-color: rgb(0, 195, 255);
+.list-flex {
+  display: flex;
+  justify-content: space-between;
 }
 
-.box-ext .box-int-down {
-  max-width: 1100px;
-  height: 200px;
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  padding-top: 10px;
+  padding-left: 350px;
+}
+
+.list-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  padding-left: 5px;
+}
+
+.login {
+  display: flex;
+  justify-self: flex-end;
+  padding-right: 5px;
+}
+
+.header-int {
+  height: 205px;
   background-color: blue;
-  align-self: flex-end;
-  padding-bottom: 2px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
-
-.box-ext .box-int-up .list-type {
-  align-items: center;
-}
-
-.list-type {
-  width: 500px;
-  height: 20px;
-  background-color: orange;
-  border: 1px;
-  border-style: dashed;
+.pink-box {
+  width: 400px;
+  height: 150px;
+  background-color: palevioletred;
+  align-self: center;
 }
 
 /* MAIN */
